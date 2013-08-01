@@ -9,5 +9,6 @@
   "files": [
     "assets/logo.png",
     "assets/logo.svg"
-  ]
+  ],
+  "repo": "https://raw.github.com/iman-styles/logo"
 }

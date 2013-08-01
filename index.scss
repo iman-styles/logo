@@ -1,5 +1,5 @@
 @function logo-image-url($path) {
-  @return url("../local/iman-styles-common/local/logo/assets/#{$path}");
+  @return url("../components/iman-styles-logo/assets/#{$path}");
 }
 
 .logo {}
@@ -12,4 +12,5 @@
   text-indent: -9999px;
   overflow: hidden;
   display: block;
+}lock;
 }
