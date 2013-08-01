@@ -1,0 +1,15 @@
+@function logo-image-url($path) {
+  @return url("../local/iman-styles-common/local/logo/assets/#{$path}");
+}
+
+.logo {}
+
+.logo__url {
+  background: logo-image-url('logo.png') 0 0 no-repeat;
+  background-image: logo-image-url('logo.svg'), none;
+  height: 70px;
+  width: 109px;
+  text-indent: -9999px;
+  overflow: hidden;
+  display: block;
+}
