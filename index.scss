@@ -2,14 +2,22 @@
   @return url("../components/iman-styles-logo/assets/#{$path}");
 }
 
-.logo {}
+.logo {
+  float: left;
+  margin-bottom: -25px;
+  z-index: 1000;
+  position: relative;
+}
 
 .logo__url {
-  background: logo-image-url('logo.png') 0 0 no-repeat;
+  background-image: logo-image-url('logo.png');
   background-image: logo-image-url('logo.svg'), none;
-  height: 70px;
-  width: 109px;
-  text-indent: -9999px;
-  overflow: hidden;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  cursor: pointer;
   display: block;
+  height: 65px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 100px;
 }
